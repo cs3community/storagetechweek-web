@@ -7,8 +7,8 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rm -rf public
 git clone https://github.com/cs3community/cs32021 public
-hugo -t cs3
-cp CNAME public
+hugo
+#cp CNAME public
 cd public
 
 # Commit changes.
@@ -20,7 +20,7 @@ git add --all .
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
+git push origin main
 
 # Come Back up to the Project Root
 cd ..
