@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "ScienceMesh"
+title = "CS3 Conference 2021"
 
 enableRobotsTXT = true
 
@@ -54,7 +54,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 #title = ""
-description = "A Federated Science Cloud Mesh"
+description = "CS3 Community Conference 2021"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -62,7 +62,7 @@ weight = 1
 # Everything below this are Site Params
 
 [params]
-copyright = "The ScienceMesh Authors"
+#copyright = "The CS3 Authors"
 #privacy_policy = "github.com/sciencemesh/sciencemesh"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -70,7 +70,7 @@ copyright = "The ScienceMesh Authors"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
-version_menu = "Releases"
+#version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/sciencemesh/sciencemesh"
@@ -149,3 +149,12 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 #	icon = "fa fa-envelope"
 #        desc = "Discuss development issues around the project"
 
+[[menu.main]]
+    name = "PROGRAMME"
+    weight = 1
+    url = "https://indico.cern.ch/event/970232/program"
+
+[[menu.main]]
+    name = "SUBMIT ABSTRACT"
+    weight = 1
+    url = "https://indico.cern.ch/event/970232/program"
