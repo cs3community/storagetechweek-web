@@ -4,10 +4,6 @@ svg {
     height: 60px;
 }
 
-navbar-brand {
-  color: rgb(114, 39, 39);
-}
-
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -21,11 +17,12 @@ navbar-brand {
 }
 
 .navbar {
-  border-bottom: 1px solid #dee2e6;
+  //border-bottom: 1px solid #dee2e6;
+  padding: 0 !important;
 }
 
 .navbar a {
-  color: black;
+  color: white;
 }
 
 a:hover{
@@ -41,4 +38,24 @@ a .active {
   padding-bottom: 20px !important;
   text-align: center;
 
+}
+
+  .td-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: 0 0!important;
+    min-height: 4rem;
+    margin: 0;
+    z-index: 32;
+}
+
+.td-main {
+ //background: white;
+}
+body {
+  background: black;
+}
+.td-box {
+  margin-top: 2em;
 }

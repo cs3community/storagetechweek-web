@@ -1,4 +1,4 @@
-baseURL = "/cs32021/"
+baseURL = "/cs32021"
 title = "CS3 Conference 2021"
 
 enableRobotsTXT = true
@@ -81,7 +81,7 @@ github_project_repo = "https://github.com/sciencemesh/sciencemesh"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
- gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+# gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
