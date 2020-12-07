@@ -6,7 +6,7 @@ set -x
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rm -rf public
-git clone https://github.com/cs3community/cs32021 public
+git clone https://github.com/cs3community/2021 public
 hugo
 #cp CNAME public
 cd public
