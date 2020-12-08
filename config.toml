@@ -157,4 +157,4 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 [[menu.main]]
     name = "SUBMIT ABSTRACT"
     weight = 1
-    url = "https://indico.cern.ch/event/970232/program"
+    url = "https://indico.cern.ch/event/970232/abstracts"
