@@ -1,5 +1,5 @@
-baseURL = "/2021"
-title = "CS3 Conference 2021"
+baseURL = "/2022"
+title = "CS3 Conference 2022"
 
 enableRobotsTXT = true
 
@@ -54,7 +54,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 #title = ""
-description = "CS3 Community Conference 2021"
+description = "CS3 Community Conference 2022"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
