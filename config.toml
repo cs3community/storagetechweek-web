@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/2022"
 title = "CS3 Conference 2022"
 
 enableRobotsTXT = true
