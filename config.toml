@@ -1,5 +1,5 @@
-baseURL = "/2022"
-title = "CS3 Conference 2022"
+baseURL = "/2024"
+title = "CS3 Conference 2024"
 
 enableRobotsTXT = true
 
@@ -54,7 +54,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 #title = ""
-description = "CS3 Community Conference 2022"
+description = "CS3 Community Conference 2024"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -127,11 +127,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 #	url = "https://example.org/stack"
 #	icon = "fab fa-stack-overflow"
 #        desc = "Practical questions and curated answers"
-[[params.links.user]]
-	name = "Gitter"
-	url = "https://gitter.im/sciencemesh/community"
-	icon = "fab fa-gitter"
-        desc = "Chat with us!"
+#[[params.links.user]]
+	#name = "Gitter"
+	#url = "https://gitter.im/sciencemesh/community"
+	#icon = "fab fa-gitter"
+        #desc = "Chat with us!"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
@@ -152,9 +152,9 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 [[menu.main]]
     name = "PROGRAMME"
     weight = 1
-    url = "https://indico.cern.ch/event/1075584/program"
+    url = "https://indico.cern.ch/event/1332413/"
 
 [[menu.main]]
     name = "SUBMIT ABSTRACT"
     weight = 1
-    url = "https://indico.cern.ch/event/1075584/abstracts"
+    url = "https://indico.cern.ch/event/1332413/"
