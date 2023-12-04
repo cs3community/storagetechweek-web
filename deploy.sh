@@ -6,7 +6,7 @@ set -x
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rm -rf public
-git clone git@github.com:cs3community/2024 public
+git clone git@github.com:cs3community/storagetechweek2024 public
 hugo
 #cp CNAME public
 cd public
