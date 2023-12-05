@@ -1,5 +1,5 @@
-baseURL = ""
-#/storagetechweek2024"
+#baseURL = ""
+baseURL="/storagetechweek2024"
 title = "CERN Storage Tech Week"
 
 enableRobotsTXT = true
