@@ -1,5 +1,4 @@
-baseURL = ""
-#/storagetechweek2024"
+baseURL = "/"
 title = "CERN Storage Tech Week"
 
 enableRobotsTXT = true
@@ -153,14 +152,13 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 [[menu.main]]
     name = "CS3 CONFERENCE"
     weight = 1
-    url = "https://www.cs3community.org/2024"
+    url = "https://indico.cern.ch/event/1332413/program"
 
 [[menu.main]]
     name = "EOS Workshop"
     weight = 1
-    url = "https://indico.cern.ch/event/1353101"
+    url = "https://indico.cern.ch/event/1332413/abstracts"
 [[menu.main]]
     name = "CTA Workshop"
     weight = 1
-    url = "https://indico.cern.ch/event/1353243"
-
+    url = "https://indico.cern.ch/event/1332413/abstracts"
