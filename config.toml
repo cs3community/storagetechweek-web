@@ -151,7 +151,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 #        desc = "Discuss development issues around the project"
 
 [[menu.main]]
-    name = "CS3 CONFERENCE"
+    name = "CS3 Conference"
     weight = 1
     url = "https://www.cs3community.org/2024"
 
@@ -161,6 +161,6 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
     url = "https://indico.cern.ch/event/1353101"
 [[menu.main]]
     name = "CTA Workshop"
-    weight = 1
+    weight = 2
     url = "https://indico.cern.ch/event/1353243"
 
