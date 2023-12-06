@@ -1,11 +1,11 @@
 {{ $cover := .HasShortcode "blocks/cover" }}
-<nav class="js-navbar-scroll navbar navbar-expand {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar" style="margin-left:1%; margin-top:1%;">
+<nav class="js-navbar-scroll navbar navbar-expand {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar ml-5" style="margin-left:1%; margin-top:1%;">
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
 		<!--<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span><span class="text-uppercase font-weight-bold">{{ .Site.Title }}</span>-->
 		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span>
 	</a>
 	<!--<a href="{{ .Site.Home.RelPermalink }}"><span><h3>2021</h3></span></a>-->
-	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+	<div class="td-navbar-nav-scroll ml-md-auto mr-5" id="main_navbar">
 		<ul class="navbar-nav mt-2 mt-lg-0">
 			{{ $p := . }}
 			{{ range .Site.Menus.main }}
