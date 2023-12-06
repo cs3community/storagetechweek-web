@@ -55,7 +55,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 #title = ""
-description = Tech Storage Week 2024"
+description = "Tech Storage Week 2024"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
